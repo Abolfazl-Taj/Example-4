@@ -1,0 +1,26 @@
+.countiner-about{
+    min-width: 1200px;
+    margin: 0 auto;
+    @apply mx-[74.5px] flex justify-center
+   }
+.about-me{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(22, 22, 22);
+    border-radius: 2px;
+    box-shadow:  1px 1px 100px 1px rgba(22, 22, 22, 0.75) ;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: inset 1px 1px 50px 1px rgba(0, 0, 0, 0.438) , 1px 1px 10px 1px rgba(0,0 ,0 , 0.438);
+    @apply w-[600px] mt-[2rem] text-center flex flex-col
+}
+.about-me img{
+    @apply p-[1rem] rounded p-2
+}
+.aboutme-header{
+ @apply my-[0.75rem] font-semibold font-sans text-gray-300 text-[35px] bg-[#111]
+}
+.aboutme-des{
+    line-height: 2.2rem;
+    text-align: justify;
+    box-shadow: inset 1px 1px 5px 1px #111 , 1px 1px 10px 1px #111 ;
+ @apply p-5 font-semibold mb-[1rem] mx-[12px] font-sans bg-[#222] rounded text-gray-300
+}

@@ -1,0 +1,27 @@
+.service{
+    @apply mt-[9rem] flex justify-center items-center flex-wrap
+}
+.service-header{
+ @apply font-bold text-center text-[55px] text-gray-300 mt-[9rem] my-[0.25rem] 
+}
+.service-card{
+  @apply flex w-1/4 justify-center items-center flex-col bg-[#000000ce] rounded mx-[10px] my-3;
+  transition: all 0.5s
+}
+.img-card{
+ @apply w-1/2 my-[0.5rem]
+}
+.card-head{
+@apply font-serif text-[30px] text-[#666] font-black
+}
+
+.service-des{
+ @apply mx-[0.75rem] p-2 my-3 text-[#777] text-justify
+}
+.service:hover .service-card{
+  filter: blur(5px);
+}
+.service-card:hover{
+  filter: blur(0px)!important;
+  scale: 1.1;
+}

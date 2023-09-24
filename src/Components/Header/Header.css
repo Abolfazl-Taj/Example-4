@@ -1,0 +1,27 @@
+.header-cont{
+    background: url(./hero-bg.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #646464;
+    @apply h-[629px]  w-full ;
+}
+.text-part{
+position: absolute;
+z-index: 5;
+top: 50%;
+left: 30%;
+@apply flex flex-col items-center text-gray-400 font-bold font-mono 
+}
+.header-head{
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(22, 22, 22, 0.75);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+ @apply mb-[25px] text-[56px] p-2
+}
+.header-des{
+ @apply text-[20px]
+}
