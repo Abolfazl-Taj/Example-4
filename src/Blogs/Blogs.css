@@ -1,0 +1,39 @@
+.blog{
+    @apply mt-[5rem] 
+}
+.blog-header{
+    @apply font-extrabold text-center text-[55px] text-gray-300 my-[1.25rem] 
+}
+.blog-des{
+    @apply font-bold text-center text-[25px] text-gray-500 my-[1.5rem] 
+
+}
+.blogs-post{
+ @apply flex justify-center items-center mt-3 
+}
+.blog-card{
+    transition: all 0.5s;
+    @apply flex flex-col rounded justify-center items-center flex-wrap bg-[#000000ce] mx-[20px] w-1/3
+}
+.Img-blog{
+ @apply w-[250px] mx-3 my-1
+}
+
+.blog-card-header{
+@apply font-black text-gray-400 my-4
+
+}
+.blog-card-des{
+    line-height:2.2rem;
+ @apply text-gray-500 text-justify text-[18px] font-bold p-2 mx-[10px]
+}
+.by{
+ @apply flex w-full justify-around bg-[#303030] mt-[2rem] mb-[1rem] 
+}
+.by-head{
+ @apply font-extrabold text-[16px] text-gray-600 
+}
+.blog-card:hover{
+    scale: 1.0075;
+    @apply bg-[#606060]
+}
